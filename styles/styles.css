@@ -18,16 +18,18 @@ h1 {
 .header {
     display: grid;
     grid-template-columns: 100%;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.79);
     border: .2rem solid rgb(155, 155, 167);
-    padding: 4em;
+    padding: 2em;
 }
 
 .search-bar {
-    padding: 3em;
+    padding: 1.5em;
+    padding-left: 0.3em;
     background-color: #f0f0f0;
     border-bottom: 1px solid #ccc;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    white-space: nowrap;
 }
   
 #search-input {
